@@ -1,0 +1,25 @@
+.home{
+    display: flex;
+
+    .left{
+        flex:.15;
+    }
+    .right{
+        flex:.85;
+      .widgets{
+        display: flex;
+        gap: 1rem;
+        margin: 2rem ;
+        
+      }
+      .charts{
+        display: flex;
+        margin: 2rem ;
+        gap: 1rem;
+      }
+
+      .list-container{
+        margin: 2rem;
+      }
+    }
+}
